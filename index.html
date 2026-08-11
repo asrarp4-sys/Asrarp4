@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>H Kabir Fabric | Quality Fabrics in South Africa</title>
+
+<style>
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f7f3ec;
+  color: #222;
+  line-height: 1.6;
+}
+
+/* HEADER */
+header {
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 25px 15px;
+}
+
+.logo {
+  width: 170px;
+  height: 170px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto 15px;
+}
+
+header h1 {
+  font-size: 34px;
+  color: #f5c451;
+}
+
+header p {
+  color: #ddd;
+  margin-top: 5px;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 65px 20px;
+  background: linear-gradient(135deg, #f5d58b, #fff8e8);
+}
+
+.hero h2 {
+  font-size: 38px;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 19px;
+  margin-bottom: 25px;
+}
+
+.button {
+  display: inline-block;
+  background: #111;
+  color: white;
+  padding: 14px 28px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.button:hover {
+  background: #333;
+}
+
+/* SECTIONS */
+section {
+  max-width: 1000px;
+  margin: auto;
+  padding: 50px 20px;
+}
+
+section h2 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+/* PRODUCTS */
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 25px;
+}
+
+.card {
+  background: white;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+}
+
+.fabric {
+  height: 190px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  text-shadow: 1px 1px 5px black;
+}
+
+.wax {
+  background:
+    repeating-linear-gradient(
+      45deg,
+      #e09b18 0px,
+      #e09b18 20px,
+      #8b2c20 20px,
+      #8b2c20 40px,
+      #174a7e 40px,
+      #174a7e 60px
+    );
+}
+
+.threecat {
+  background:
+    repeating-linear-gradient(
+      -45deg,
+      #2563eb 0px,
+      #2563eb 20px,
+      #7c3aed 20px,
+      #7c3aed 40px,
+      #dc2626 40px,
+      #dc2626 60px
+    );
+}
+
+.card-content {
+  padding: 22px;
+}
+
+.card-content h3 {
+  font-size: 22px;
+  margin-bottom: 8px;
+}
+
+/* ABOUT */
+.about {
+  background: white;
+  border-radius: 18px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 5px 18px rgba(0,0,0,0.08);
+}
+
+/* CONTACT */
+.contact {
+  background: #111;
+  color: white;
+  text-align: center;
+  border-radius: 20px;
+  margin-bottom: 40px;
+}
+
+.contact h2 {
+  color: #f5c451;
+}
+
+.contact p {
+  margin-bottom: 25px;
+}
+
+/* FOOTER */
+footer {
+  background: #111;
+  color: #aaa;
+  text-align: center;
+  padding: 25px;
+  font-size: 14px;
+}
+
+/* MOBILE */
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 28px;
+  }
+
+  .logo {
+    width: 145px;
+    height: 145px;
+  }
+
+  .hero h2 {
+    font-size: 30px;
+  }
+
+  section h2 {
+    font-size: 26px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header>
+
+  <img src="logo.png" alt="H Kabir Fabric Logo" class="logo">
+
+  <h1>H Kabir Fabric</h1>
+
+  <p>Quality Fabrics in South Africa</p>
+
+</header>
+
+
+<!-- HERO -->
+<div class="hero">
+
+  <h2>Beautiful Fabrics for Every Style</h2>
+
+  <p>
+    Quality Wax Fabric and Three Cat Fabric
+    available at H Kabir Fabric.
+  </p>
+
+  <a href="#products" class="button">
+    View Our Fabrics
+  </a>
+
+</div>
+
+
+<!-- PRODUCTS -->
+<section id="products">
+
+  <h2>Our Fabrics</h2>
+
+  <div class="products">
+
+    <!-- WAX FABRIC -->
+    <div class="card">
+
+      <div class="fabric wax">
+        WAX FABRIC
+      </div>
+
+      <div class="card-content">
+
+        <h3>Wax Fabric</h3>
+
+        <p>
+          Beautiful and colourful Wax Fabric
+          with attractive designs.
+        </p>
+
+      </div>
+
+    </div>
+
+
+    <!-- THREE CAT FABRIC -->
+    <div class="card">
+
+      <div class="fabric threecat">
+        THREE CAT
+      </div>
+
+      <div class="card-content">
+
+        <h3>Three Cat Fabric</h3>
+
+        <p>
+          Quality Three Cat Fabric available
+          at H Kabir Fabric.
+        </p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ABOUT -->
+<section>
+
+  <h2>About H Kabir Fabric</h2>
+
+  <div class="about">
+
+    <p>
+      Welcome to <strong>H Kabir Fabric</strong>,
+      your destination for quality fabrics in
+      South Africa.
+    </p>
+
+    <br>
+
+    <p>
+      We offer Wax Fabric and Three Cat Fabric
+      in beautiful designs suitable for
+      different styles and occasions.
+    </p>
+
+  </div>
+
+</section>
+
+
+<!-- CONTACT -->
+<section class="contact">
+
+  <h2>Contact H Kabir Fabric</h2>
+
+  <p>
+    Interested in our fabrics?
+    Contact us on WhatsApp.
+  </p>
+
+  <!-- CHANGE YOURNUMBER TO YOUR WHATSAPP NUMBER LATER -->
+
+  <a
+    class="button"
+    href="https://wa.me/YOURNUMBER"
+  >
+    WhatsApp Us
+  </a>
+
+</section>
+
+
+<!-- FOOTER -->
+<footer>
+
+  © 2026 H Kabir Fabric • South Africa
+
+</footer>
+
+</body>
+</html>
