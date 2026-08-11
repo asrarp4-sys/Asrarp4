@@ -1,1 +1,7 @@
-body{font-family:Arial,sans-serif;margin:40px;background:#f4f4f4}h1{color:#0B1F3A}
+b.logo{
+  width:140px;
+  height:140px;
+  object-fit:contain;
+  display:block;
+  margin:0 auto 15px;
+}ody{font-family:Arial,sans-serif;margin:40px;background:#f4f4f4}h1{color:#0B1F3A}
